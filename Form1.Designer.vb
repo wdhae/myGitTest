@@ -60,7 +60,6 @@ Partial Class Form1
         Me.ListBox1.TabIndex = 2
         '
         'RadioButton1
-        'MonthCalendar1
         '
         Me.RadioButton1.AutoSize = True
         Me.RadioButton1.Location = New System.Drawing.Point(15, 177)
@@ -84,6 +83,10 @@ Partial Class Form1
         Me.DateTimePicker1.Location = New System.Drawing.Point(288, 102)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
+        Me.DateTimePicker1.TabIndex = 5
+        '
+        'MonthCalendar1
+        '
         Me.MonthCalendar1.Location = New System.Drawing.Point(18, 166)
         Me.MonthCalendar1.Name = "MonthCalendar1"
         Me.MonthCalendar1.TabIndex = 3
@@ -106,9 +109,7 @@ Partial Class Form1
         Me.Button2.Text = "Button2"
         Me.Button2.UseVisualStyleBackColor = True
         '
-        Me.DateTimePicker1.TabIndex = 5
         'Label2
-        '
         '
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(202, 231)
@@ -130,11 +131,10 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(489, 256)
+        Me.ClientSize = New System.Drawing.Size(343, 346)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.CheckedListBox1)
         Me.Controls.Add(Me.RadioButton1)
-        Me.ClientSize = New System.Drawing.Size(343, 346)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button2)
