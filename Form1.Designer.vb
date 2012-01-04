@@ -31,6 +31,7 @@ Partial Class Form1
         Me.MonthCalendar1 = New System.Windows.Forms.MonthCalendar
         Me.Button1 = New System.Windows.Forms.Button
         Me.Button2 = New System.Windows.Forms.Button
+        Me.Label2 = New System.Windows.Forms.Label
         Me.SuspendLayout()
         '
         'Label1
@@ -105,6 +106,15 @@ Partial Class Form1
         Me.Button2.UseVisualStyleBackColor = True
         '
         Me.DateTimePicker1.TabIndex = 5
+        'Label2
+        '
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(202, 231)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(39, 13)
+        Me.Label2.TabIndex = 6
+        Me.Label2.Text = "Label2"
         '
         'Form1
         '
@@ -115,6 +125,7 @@ Partial Class Form1
         Me.Controls.Add(Me.CheckedListBox1)
         Me.Controls.Add(Me.RadioButton1)
         Me.ClientSize = New System.Drawing.Size(343, 346)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.MonthCalendar1)
@@ -136,5 +147,6 @@ Partial Class Form1
     Friend WithEvents MonthCalendar1 As System.Windows.Forms.MonthCalendar
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Label2 As System.Windows.Forms.Label
 
 End Class
