@@ -27,6 +27,7 @@ Partial Class Form1
         Me.ListBox1 = New System.Windows.Forms.ListBox
         Me.RadioButton1 = New System.Windows.Forms.RadioButton
         Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker
         Me.SuspendLayout()
         '
         'Label1
@@ -72,11 +73,19 @@ Partial Class Form1
         Me.CheckedListBox1.Size = New System.Drawing.Size(120, 94)
         Me.CheckedListBox1.TabIndex = 4
         '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.Location = New System.Drawing.Point(288, 102)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
+        Me.DateTimePicker1.TabIndex = 5
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 262)
+        Me.ClientSize = New System.Drawing.Size(489, 256)
+        Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.CheckedListBox1)
         Me.Controls.Add(Me.RadioButton1)
         Me.Controls.Add(Me.ListBox1)
@@ -93,5 +102,6 @@ Partial Class Form1
     Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
     Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton
     Friend WithEvents CheckedListBox1 As System.Windows.Forms.CheckedListBox
+    Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
 
 End Class
