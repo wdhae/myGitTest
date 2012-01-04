@@ -32,6 +32,7 @@ Partial Class Form1
         Me.Button1 = New System.Windows.Forms.Button
         Me.Button2 = New System.Windows.Forms.Button
         Me.Label2 = New System.Windows.Forms.Label
+        Me.Button3 = New System.Windows.Forms.Button
         Me.SuspendLayout()
         '
         'Label1
@@ -116,6 +117,15 @@ Partial Class Form1
         Me.Label2.TabIndex = 6
         Me.Label2.Text = "Label2"
         '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(205, 76)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 7
+        Me.Button3.Text = "Button3"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -125,6 +135,7 @@ Partial Class Form1
         Me.Controls.Add(Me.CheckedListBox1)
         Me.Controls.Add(Me.RadioButton1)
         Me.ClientSize = New System.Drawing.Size(343, 346)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -148,5 +159,6 @@ Partial Class Form1
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Button3 As System.Windows.Forms.Button
 
 End Class
